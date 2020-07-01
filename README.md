@@ -59,13 +59,13 @@ We will serve the site via nginx web servers, but we want to ensure we have a fa
 
 You have a limit to the resources you are allowed to create in your project, so do not create more than two instances in your managed instance group or the lab might exit and you might get banned. ------RED------
 
-`cat << EOF > startup.sh
+```cat << EOF > startup.sh
 #! /bin/bash
 apt-get update
 apt-get install -y nginx
 service nginx start
 sed -i -- 's/nginx/Google Cloud Platform - '"\$HOSTNAME"'/' /var/www/html/index.nginx-debian.html
-EOF`
+EOF```
 
 You need to:
 
