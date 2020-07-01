@@ -9,7 +9,7 @@ When you take a Challenge Lab, you will not be taught GCP concepts. To build the
 
 This lab is only recommended for students who have completed the labs in the Getting Started: Create and Manage Cloud Resources Quest. Are you up for the challenge?
 
-> Please make sure you review the labs in the Getting Started: Create and Manage Cloud Resources quest before starting this lab! -----RED-----
+> Please make sure you review the labs in the [Getting Started: Create and Manage Cloud Resources](https://google.qwiklabs.com/quests/120) quest before starting this lab!
 
 Topics tested:
 
@@ -40,24 +40,20 @@ Make sure you:
 - use the machine type of f1-micro
 - use the default image type (Debian Linux)
 
-If you don't get a green check mark, please click on the Score fly-out on the top right and click Run Step on the relevant step. You will see a hint pop up giving you advice. ------RED------
-
 #### Task 2: Create a Kubernetes service cluster
 
-You have a limit to the resources you are allowed to create in your project, if you don't get the result you expected please delete the cluster before you create another cluster or the lab might exit and you might get banned. ------RED------
+> You have a limit to the resources you are allowed to create in your project, if you don't get the result you expected please delete the cluster before you create another cluster or the lab might exit and you might get banned.
 
 The team is building an application that will use a service. This service will run on Kubernetes. You need to:
 
-- Create a cluster (in the us-east1 region) to host the service
+- Create a cluster (in the `us-east1` region) to host the service
 - Use the Docker container hello-app (`gcr.io/google-samples/hello-app:2.0`) as a place holder, the team will replace the container with their own work later
-- Expose the app on port 8080
-
-If you don't get a green check mark, please click on the Score fly-out on the top right and click Run Step on the relevant step. You will see a hint pop up giving you advice. ------RED------
+- Expose the app on port `8080`
 
 #### Task 3: Setup an HTTP load balancer
 We will serve the site via nginx web servers, but we want to ensure we have a fault tolerant environment, so please create an HTTP load balancer with a managed instance group of __two nginx web servers__. Use the following to configure the web servers, the team will replace this with their own configuration later.
 
-You have a limit to the resources you are allowed to create in your project, so do not create more than two instances in your managed instance group or the lab might exit and you might get banned. ------RED------
+> You have a limit to the resources you are allowed to create in your project, so do not create more than two instances in your managed instance group or the lab might exit and you might get banned. 
 
 ``` cat << EOF > startup.sh
 #! /bin/bash
