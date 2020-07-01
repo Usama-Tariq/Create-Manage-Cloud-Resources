@@ -9,7 +9,7 @@ When you take a Challenge Lab, you will not be taught GCP concepts. To build the
 
 This lab is only recommended for students who have completed the labs in the Getting Started: Create and Manage Cloud Resources Quest. Are you up for the challenge?
 
->> Please make sure you review the labs in the [Getting Started: Create and Manage Cloud Resources](https://google.qwiklabs.com/quests/120) quest before starting this lab!
+> Please make sure you review the labs in the [Getting Started: Create and Manage Cloud Resources](https://google.qwiklabs.com/quests/120) quest before starting this lab!
 
 Topics tested:
 
