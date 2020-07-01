@@ -36,7 +36,7 @@ We will use this instance to perform maintenance for the project.
 
 Make sure you:
 
-- name the instance nucleus-jumphost
+- name the instance `nucleus-jumphost`
 - use the machine type of f1-micro
 - use the default image type (Debian Linux)
 
